@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body style="background-color: aquamarine;">
+    <center>
+        <h1>static files</h1>
+
+        <img src="{{url_for('static',filename='images/AA.jpeg')}}" width="400px" height="300px" alt="">
+        <a href="{{url_for('second')}}">Navigate to second page</a>
+    </center>
+</body>
+</html>
